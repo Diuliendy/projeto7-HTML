@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+
+    <header>
+        <h1>Cadastro de Usuário</h1>
+        <nav>
+            <ul>
+                <li><a href="#formulario">Formulário</a></li>
+                <li><a href="#info">Informações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="formulario">
+        <h2>Formulário de Cadastro</h2>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha"><br><br>
+
+            <label for="genero">Gênero:</label><br>
+            <select id="genero" name="genero">
+                <option value="">Selecione</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select><br><br>
+
+            <label for="interesses">Interesses:</label><br>
+            <input type="checkbox" name="interesses" value="viagem"> Viagem<br>
+            <input type="checkbox" name="interesses" value="música"> Música<br>
+            <input type="checkbox" name="interesses" value="tecnologia"> Tecnologia<br><br>
+
+            <label for="biografia">Biografia:</label><br>
+            <textarea id="biografia" name="biografia" rows="5" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </section>
+
+    <section id="info">
+        <h2>Informações</h2>
+        <p>Preencha todos os campos com suas informações pessoais e preferências.</p>
+    </section>
+
+</body>
+</html>
